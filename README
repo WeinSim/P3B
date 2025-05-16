@@ -1,0 +1,30 @@
+# Physikpraktikum P3B
+
+In diesem GitHub-Repository sind sämtliche relevante Dokumente der Bearbeitung
+des FP-I-A-Physikpraktikums an der LMU von Yannic Werner und Simon Weinzierl
+im Sommersemester 2025 enthalten.
+Dazu gehören der verwendete LaTeX-Code für die Vorbereitung und Auswertung
+sowie der verwendete Python-Code, der für die Auswertung und graphische
+Darstellung der gewonnenen Experimentierdaten verwendet wird.
+
+Zu jedem der fünf Versuche gibt es auf der obersten Ebene einen Ordner, in dem
+sich die jeweils dazugehörigen Dateien befinden.
+
+## Python-Skripte zur Datenauswertung
+
+Für jeden Versuch verwenden wir etwas Python-Code für zwei verschiedene Zwecke:
+1. **Auswertung der Daten.** An einigen Stellen in der Auswertung müssen
+komplizierte Terme ausgewertet werden, oft mehrmals mit jedem Ergebnis einer
+Messreihe. Das passiert per Code effizienter und fehlerfreier als per Hand.
+Zudem ist oft eine Berechnung der Unsicherheit eines Messergebnisses gefragt.
+Diese Rechnungen sind aufgrund der vielen Ableitungen per Hand sehr aufwendig
+durchzuführen und es können leicht Fehler passieren. Deswegen berechnet unser
+Code selbstständig die notwendigen partiellen Ableitungen, setzt die
+gegebenen Unsicherheiten ein und berechnet den Messfehler.
+Darüber hinaus sind für manche Auswertungen Ausgleichsgeraden erforderlich.
+Diese können mit dem Package `numpy` leicht bestimmt werden.
+
+2. **Graphische Darstellung der Daten.** In Experimenten, in denen Messreihen
+zu der selben Größe unter verschiedenen Parametern aufgenommen werden,
+werden diese oft graphisch dargestellt. Dafür eignet sich das Package
+`matplotlib` hervorragend.
