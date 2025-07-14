@@ -6,4 +6,4 @@
 	url = https://git@git.overleaf.com/68272d90fc0e37a547ed7878
 [submodule "ROE"]
 	path = ROE
-	url = https://git@git.overleaf.com/682478435cbc4e7ef14830b7
+	url = https://github.com/WeinSim/P3B_ROE
