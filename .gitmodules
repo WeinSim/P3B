@@ -1,9 +1,9 @@
 [submodule "FHV"]
 	path = FHV
-	url = https://git@git.overleaf.com/683580aef3e5cb1d63e54463
+	url = https://github.com/WeinSim/P3B_FHV
 [submodule "BAS"]
 	path = BAS
-	url = https://git@git.overleaf.com/68272d90fc0e37a547ed7878
+	url = https://github.com/WeinSim/P3B_BAS
 [submodule "ROE"]
 	path = ROE
 	url = https://github.com/WeinSim/P3B_ROE
